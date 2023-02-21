@@ -9,6 +9,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Мой первый сайт</title>
     <link rel="stylesheet" href="../css/index.css"> <!-- файл из другой папки  -->
+    <script async src="../js/popup.js"></script>
 </head>
 <body class="page">
     <header class="header">
@@ -19,7 +20,15 @@
             <li><a class="menu-link" href="./about.html">О курсе</a></li>
             <li><a class="menu-link" href="./contacts.html">Контакты</a></li>
         </ul>
-        <a class="login-button">Войти</a>
+        <a class="login-button" href="login.html">Войти</a>
+        <div class="login-popup">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required>
+                <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
     </header>
     <main class="main">
         <h1 class="main-heading"> Студенты потока 08.02.2020 👧👦</h1>
@@ -29,8 +38,8 @@
         <p class="students-name"> Василий Иванов</p>
                 </section>
                 <section class="student">
-        <img src="../images/photo.png" Width="200px" Height="270px"> 
-        <p class="students-name"> Мария Александрова</p>
+        <a href="./mypage.html"> <img src="../images/dyudyuka.png"  Width="200px" Height="270px"> </a>
+        <p class="students-name"> Ирина Мисик</p>
                 </section>
                 <section class="student">
          <img  src="../images/photo.png"Width="200px" Height="270px"> 
