@@ -77,7 +77,7 @@ text-decoration-line: underline;
     z-index: 2;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, -150%);
+    transform: translate(-50%, -15%);
     box-sizing: border-box;
     width: 100%;
     max-width: 500px;
