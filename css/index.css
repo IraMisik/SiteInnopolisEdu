@@ -193,6 +193,19 @@ h2 {
     width: 100%;
     max-width: 523px;
 }
+.intro-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.blockquote {
+    font-family: 'Lobster';
+font-style: italic;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+color: #646464;
+
+}
 /* students*/
 .students {
      max-width: 1200px;
@@ -210,11 +223,28 @@ h2 {
 .student {
     padding-left: 50px;
 }
+
+.new-student {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+text-transform: uppercase;
+padding: 2px 6px 2px;
+text-decoration: none;
+background: #3AA828;
+border-radius: 20px;
+position: relative;
+top: -350px;
+left: 140px;
+}
 .map {
    height: auto;
 width: 100%;
-max-width: 1250px;
-
+max-width: 1268px;
+height: 370px;
 }
 .contact {
     font-style: normal;
