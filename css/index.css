@@ -11,7 +11,7 @@ html {
 
 .header {
     width: 100%;
-    max-width: 1300px;
+    /*max-width: 1300px;*/
     flex-wrap: wrap;
     background-color:  #213B7E;
     display: flex;
@@ -267,7 +267,7 @@ text-decoration: underline;
 .footer {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1300px;
+    /*max-width: 1300px;*/
     width: 100%;
     box-sizing: border-box;
     min-height: 60px;
